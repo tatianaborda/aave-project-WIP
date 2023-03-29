@@ -2,34 +2,28 @@ Aave Project
 This is a project that explores the use of the Aave Protocol. The goal of this project is to demonstrate how to interact with the Aave smart contracts using Solidity and web3.js. It is made in React, Express, Node and MongoDb database. I used Hardhat as development envirioment and Infura as node host.
 
 Getting Started
-To get started with this project, you will need to have Node.js and npm installed on your machine. Once you have those installed, you can run the following commands to install the necessary dependencies:
+To get started with this project, you will need to have Node.js and npm installed on your machine.
 
-bash
-Copy code
-npm install
 You will also need to have an Ethereum wallet that supports the Aave Protocol. I recommend using Metamask for this purpose.
 
-Usage
-To use this project, you can run the following command to compile the Solidity contracts:
+Getting Started
+To get started with this project, follow these steps:
 
-bash
-Copy code
-npm run compile
-You can then deploy the contracts to a local blockchain using the following command:
+Clone this repository to your local machine.
+Install the required dependencies by running npm install in the project root directory.
+Create a .env file in the root directory of the project and add your wallet key and also your node URL(Infura or Alchemy)
+Start the project by running npm start in the project root directory.
 
-bash
-Copy code
-npm run deploy
-Once the contracts are deployed, you can interact with them using the functions defined in the index.js file.
+Features
 
-Contributing
-If you would like to contribute to this project, please follow these steps:
+This project includes the following features:
 
-Fork the repository
-Create a new branch (git checkout -b my-new-feature)
-Make changes and commit them (git commit -am 'Add some feature')
-Push to the branch (git push origin my-new-feature)
-Create a new Pull Request
+Login functionality using a Metamask wallet.
+Ability to view your Aave account balance.
+Ability to deposit and withdraw funds from your Aave account.
+Ability to view your borrowing power and take out a loan.
+Ability to repay your loan and view your outstanding balance.
+
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
