@@ -1,8 +1,7 @@
 Aave Project
 This is a project that explores the use of the Aave Protocol. The goal of this project is to demonstrate how to interact with the Aave smart contracts using Solidity and web3.js. It is made in React, Express, Node and MongoDb database. I used Hardhat as development envirioment and Infura as node host.
 
-Getting Started
-To get started with this project, you will need to have Node.js and npm installed on your machine.
+You will need to have Node.js and npm installed on your machine.
 
 You will also need to have an Ethereum wallet that supports the Aave Protocol. I recommend using Metamask for this purpose.
 
